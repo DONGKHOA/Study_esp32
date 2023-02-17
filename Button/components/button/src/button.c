@@ -19,7 +19,7 @@ void BUTTON_Handle(gpio_num_t gpio_num_button, gpio_num_t gpio_num_output)
 
     // debouncing
 
-	if(is_deboucing == 1 && (clock() - deboucing_timer) > 15)
+	if(is_deboucing == 1 && (double)(clock() - deboucing_timer)/ CLOCKS_PER_SEC > 0.0015)
 	{
 		current_state = deboucing_state;
 		is_deboucing = 0;

@@ -1,0 +1,17 @@
+[1/11] Building C object esp-idf/button/CMakeFiles/__idf_button.dir/src/button.c.obj
+[2/11] Linking C static library esp-idf/button/libbutton.a
+[3/11] Performing build step for 'bootloader'
+[1/1] cd /home/dongkhoa/esp/Project/Button/build/bootloader/esp-idf/esptool_py && /home/dongkhoa/esp/python_env/idf5.0_py3.10_env/bin/python /home/dongkhoa/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/dongkhoa/esp/Project/Button/build/bootloader/bootloader.bin
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable BUTTON.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/dongkhoa/esp/Project/Button/build/BUTTON.bin
+[9/9] cd /home/dongkhoa/esp/Project/Button/build/esp-idf/esptool_py && /home/dongkhoa/esp/python_env/idf5.0_py3.10_env/bin/python /home/dongkhoa/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/dongkhoa/esp/Project/Button/build/partition_table/partition-table.bin /home/dongkhoa/esp/Project/Button/build/BUTTON.bin
+BUTTON.bin binary size 0x2d140 bytes. Smallest app partition is 0x100000 bytes. 0xd2ec0 bytes (82%) free.
