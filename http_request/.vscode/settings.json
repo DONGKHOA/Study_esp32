@@ -1,0 +1,8 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.port": "/dev/ttyUSB0",
+  "files.associations": {
+    "*.tcc": "c"
+  },
+  "idf.adapterTargetName": "esp32"
+}
